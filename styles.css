@@ -1,0 +1,51 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  text-align: center;
+  background-color: lightgray;
+  padding-left: 15px;
+  margin-left: 15px;
+  padding-bottom: 15px;
+  padding-right: 15px;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  background-color: black;
+  justify-content: space-around;
+  list-style-type: none;
+  font-size: 17px;
+}
+
+li {
+  text-align: center;
+  border: 0.3rem solid black;
+  border-radius: 0.3rem;
+}
+
+li:hover {
+  transform: scale(1.2);
+  background-color: blue;
+  border-color: red;
+}
+
+section {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+aside {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 30%;
+  padding-left: 15px;
+  margin-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  float: right;
+  font-style: italic;
+  background-color: lightgray;
+}
